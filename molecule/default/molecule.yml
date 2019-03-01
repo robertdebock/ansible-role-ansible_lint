@@ -32,8 +32,6 @@ platforms:
     image: fedora:rawhide
   - name: ansible_lint-opensuse-leap
     image: opensuse:leap
-  - name: ansible_lint-opensuse-tumbleweed
-    image: opensuse:tumbleweed
   - name: ansible_lint-ubuntu-latest
     image: ubuntu:latest
   - name: ansible_lint-ubuntu-rolling
