@@ -11,7 +11,7 @@
 - name: install ansible_lint
   pip:
     name: "{{ ansible_lint_packages }}"
-    state: "{{ ansible_lint_package_state }}"
+    state: present
   register: ansible_lint_install_ansible_lint
   until: ansible_lint_install_ansible_lint is succeeded
   retries: 3

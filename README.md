@@ -33,9 +33,6 @@ These variables are set in `defaults/main.yml`:
 ```yaml
 ---
 # defaults file for ansible_lint
-
-# To update packages this role places on the system, set `ansible_lint_package_state` to `latest`.
-ansible_lint_package_state: present
 ```
 
 Requirements
