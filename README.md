@@ -6,6 +6,9 @@ ansible_lint
 
 Install ansible-lint on your system.
 
+<img src="https://img.shields.io/ansible/role/d/35946"/>
+<img src="https://img.shields.io/ansible/quality/35946"/>
+
 Example Playbook
 ----------------
 
@@ -67,7 +70,6 @@ The following roles can be installed to ensure all requirements are met, using `
 This role uses the following modules:
 ```yaml
 ---
-- assert
 - pip
 ```
 
