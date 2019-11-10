@@ -80,8 +80,6 @@ This role has been tested on these [container images](https://hub.docker.com/):
 
 |container|tag|allow_failures|
 |---------|---|--------------|
-|amazonlinux|1|no|
-|amazonlinux|latest|no|
 |debian|unstable|yes|
 |debian|latest|no|
 |centos|latest|no|
@@ -103,7 +101,8 @@ Some variarations of the build matrix do not work. These are the variations and 
 
 | variation                 | reason                 |
 |---------------------------|------------------------|
-| Alpine | ImportError: Error loading shared library /tmp/pip-build-env-zrX8Lu/lib/python2.7/site-packages/_cffi_backend.so: Operation not permitted |
+| amazonlinux:1 | No package matching 'python3-pip' |
+| amazonlinux | No module named pkg_resources |
 
 
 
