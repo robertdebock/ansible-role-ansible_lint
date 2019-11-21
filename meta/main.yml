@@ -32,7 +32,6 @@ galaxy_info:
     - ansiblelint
     - archlinux
     - centos
-    - opensuse
     - rhel
     - ubuntu
 
