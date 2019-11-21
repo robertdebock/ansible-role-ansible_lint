@@ -30,7 +30,6 @@ galaxy_info:
 
   galaxy_tags:
     - ansiblelint
-    - alpine
     - archlinux
     - centos
     - debian
