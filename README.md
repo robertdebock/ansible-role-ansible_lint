@@ -106,7 +106,6 @@ Some variarations of the build matrix do not work. These are the variations and 
 | amazonlinux | No module named pkg_resources |
 
 
-
 Testing
 -------
 
