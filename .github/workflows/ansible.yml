@@ -11,7 +11,7 @@ on:
       - '*'
   pull_request:
   schedule:
-    - cron: '53 19 1 * *'
+    - cron: '48 1 1 * *'
 
 jobs:
   lint:
@@ -34,10 +34,6 @@ jobs:
         config:
           - image: "debian"
             tag: "latest"
-          - image: "debian"
-            tag: "testing"
-          - image: "debian"
-            tag: "unstable"
           - image: "centos"
             tag: "latest"
           - image: "fedora"
