@@ -5,7 +5,7 @@ Install ansible-lint on your system.
 
 |Travis|GitHub|Quality|Downloads|
 |------|------|-------|---------|
-|[![travis](https://travis-ci.org/robertdebock/ansible-role-ansible_lint.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-ansible_lint)|[![github](https://github.com/robertdebock/ansible-role-ansible_lint/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-ansible_lint/actions)|![quality](https://img.shields.io/ansible/quality/35946)|![downloads](https://img.shields.io/ansible/role/d/35946)|
+|[![travis](https://travis-ci.com/robertdebock/ansible-role-ansible_lint.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-ansible_lint)|[![github](https://github.com/robertdebock/ansible-role-ansible_lint/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-ansible_lint/actions)|[![quality](https://img.shields.io/ansible/quality/35946)](https://galaxy.ansible.com/robertdebock/ansible_lint)|[![downloads](https://img.shields.io/ansible/role/d/35946)](https://galaxy.ansible.com/robertdebock/ansible_lint)|
 
 Example Playbook
 ----------------
@@ -120,7 +120,7 @@ Some variarations of the build matrix do not work. These are the variations and 
 Testing
 -------
 
-[Unit tests](https://travis-ci.org/robertdebock/ansible-role-ansible_lint) are done on every commit, pull request, release and periodically.
+[Unit tests](https://travis-ci.com/robertdebock/ansible-role-ansible_lint) are done on every commit, pull request, release and periodically.
 
 If you find issues, please register them in [GitHub](https://github.com/robertdebock/ansible-role-ansible_lint/issues)
 
