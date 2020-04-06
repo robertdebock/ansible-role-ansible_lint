@@ -5,4 +5,4 @@
   gather_facts: yes
 
   roles:
-    - ansible-role-ansible_lint
+    - role: ansible-role-ansible_lint
