@@ -27,6 +27,7 @@ galaxy_info:
 
   galaxy_tags:
     - ansiblelint
-    - centos
+    - ansible
+    - lint
 
 dependencies: []
