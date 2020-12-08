@@ -2,9 +2,9 @@
 
 Install ansible-lint on your system.
 
-|Travis|GitHub|Quality|Downloads|Version|
-|------|------|-------|---------|-------|
-|[![travis](https://travis-ci.com/robertdebock/ansible-role-ansible_lint.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-ansible_lint)|[![github](https://github.com/robertdebock/ansible-role-ansible_lint/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-ansible_lint/actions)|[![quality](https://img.shields.io/ansible/quality/35946)](https://galaxy.ansible.com/robertdebock/ansible_lint)|[![downloads](https://img.shields.io/ansible/role/d/35946)](https://galaxy.ansible.com/robertdebock/ansible_lint)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-ansible_lint.svg)](https://github.com/robertdebock/ansible-role-ansible_lint/releases/)|
+|Travis|GitHub|GitLab|Quality|Downloads|Version|
+|------|------|------|-------|---------|-------|
+|[![travis](https://travis-ci.com/robertdebock/ansible-role-ansible_lint.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-ansible_lint)|[![github](https://github.com/robertdebock/ansible-role-ansible_lint/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-ansible_lint/actions)|[![gitlab](https://gitlab.com/robertdebock/ansible-role-ansible_lint/badges/master/pipeline.svg)](https://gitlab.com/robertdebock/ansible-role-ansible_lint)|[![quality](https://img.shields.io/ansible/quality/35946)](https://galaxy.ansible.com/robertdebock/ansible_lint)|[![downloads](https://img.shields.io/ansible/role/d/35946)](https://galaxy.ansible.com/robertdebock/ansible_lint)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-ansible_lint.svg)](https://github.com/robertdebock/ansible-role-ansible_lint/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
