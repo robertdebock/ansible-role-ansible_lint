@@ -1,7 +1,24 @@
 ---
 # tasks file for ansible_lint
 
-- name: Install ansible_lint
+- name: Install ansible_lint using pip
   ansible.builtin.pip:
-    name: "{{ ansible_lint_packages }}"
+    name: "{{ ansible_lint_packages.name }}"
     state: present
+  when:
+    - item.type == "pip"
+  loop:
+    - "{{ ansible_lint_packages }}"
+  loop_control:
+    label: "{{ ansible_lint_packages.name }}"
+
+- name: Install ansible_lint using package
+  ansible.builtin.package:
+    name: "{{ ansible_lint_packages.name }}"
+    state: present
+  when:
+    - item.type == "package"
+  loop:
+    - "{{ ansible_lint_packages }}"
+  loop_control:
+    label: "{{ ansible_lint_packages.name }}"
