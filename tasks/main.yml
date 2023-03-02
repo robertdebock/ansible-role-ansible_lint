@@ -6,8 +6,7 @@
     name: "{{ item.name }}"
   when:
     - item.type == "pip"
-  loop:
-    - "{{ ansible_lint_packages }}"
+  loop: "{{ ansible_lint_packages }}"
   loop_control:
     label: "{{ item.name }}"
 
@@ -16,7 +15,6 @@
     name: "{{ item.name }}"
   when:
     - item.type == "package"
-  loop:
-    - "{{ ansible_lint_packages }}"
+  loop: "{{ ansible_lint_packages }}"
   loop_control:
     label: "{{ item.name }}"
