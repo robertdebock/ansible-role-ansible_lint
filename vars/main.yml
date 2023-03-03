@@ -6,6 +6,6 @@ _ansible_lint_packages:
     - name: ansible-lint
       type: pip
   Debian:
-    - name: python3-ansible-lint
+    - name: ansible-lint
       type: package
 ansible_lint_packages: "{{ _ansible_lint_packages[ansible_os_family] | default(_ansible_lint_packages['default']) }}"
