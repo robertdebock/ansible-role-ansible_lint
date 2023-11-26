@@ -1,4 +1,4 @@
-# Ansible role [ansible_lint](#ansible_lint)
+# [Ansible role ansible_lint](#ansible_lint)
 
 Install ansible-lint on your system.
 
